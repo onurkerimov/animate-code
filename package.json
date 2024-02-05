@@ -1,0 +1,62 @@
+{
+  "name": "animate-code-root",
+  "private": "true",
+  "version": "1.0.0",
+  "description": "A React component for animating code blocks into one another",
+  "homepage": "https://github.com/onurkerimov/animate-code#readme",
+  "bugs": {
+    "url": "https://github.com/onurkerimov/animate-code/issues"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "license": "ISC",
+  "author": "onurkerimov",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onurkerimov/animate-code.git"
+  },
+  "packageManager": "pnpm@8.8.0",
+  "scripts": {
+    "dev": "vite dev",
+    "build:site": "vite build",
+    "build:packages": "rollup --config",
+    "preview": "vite preview",
+    "lint": "pnpm lint:eslint && pnpm lint:style",
+    "lint:fix": "pnpm lint:eslint-fix && pnpm lint:style-fix",
+    "lint:eslint": "eslint . --ext .js,.ts,.tsx",
+    "lint:eslint-fix": "eslint . --fix --ext .js,.ts,.tsx",
+    "lint:style": "stylelint 'src/**/*.css'",
+    "lint:style-fix": "stylelint --fix 'src/**/*.css'",
+    "storybook": "storybook dev -p 6006",
+    "build:storybook": "storybook build",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "test:virtual-update": "vitest run --update",
+    "typecheck": "tsc --project tsconfig.json --pretty --noEmit --incremental false"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@babel/helper-module-imports": "^7.22.15",
+    "@types/node": "^20.8.0",
+    "@types/react": "18.2.24",
+    "@types/react-dom": "18.2.8",
+    "@vitejs/plugin-react-swc": "3.3.2",
+    "babel-plugin-macros": "^3.1.0",
+    "stylelint": "15.10.3",
+    "stylelint-config-recess-order": "4.3.0",
+    "stylelint-config-standard": "34.0.0",
+    "typescript": "5.2.2",
+    "typescript-plugin-css-modules": "^5.0.2",
+    "vite": "4.4.9",
+    "vite-plugin-babel-macros": "^1.0.6",
+    "vite-plugin-pages": "^0.31.0",
+    "vite-tsconfig-paths": "^4.2.1"
+  }
+}

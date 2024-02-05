@@ -1,0 +1,13 @@
+
+code {
+  display: block;
+  overflow: hidden;
+  font-size: 14px;
+  line-height: 1.3;
+  color: white;
+  background: #234;
+}
+
+pre {
+  margin: 0;
+}
