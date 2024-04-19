@@ -5,7 +5,7 @@ See it in heavy action in **xoid**'s docs: [xoid.dev](https://xoid.dev)
 
 ### Usage
 ```js
-import CodeAnimate from 'code-animate';
+import CodeAnimate from 'animate-code';
 import 'prismjs/components/prism-jsx' // Make sure to include Prismjs grammar you want to use.
 import 'prismjs/themes/prism-tomorrow.css' // Use a Prismjs theme
 

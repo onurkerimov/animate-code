@@ -1,5 +1,5 @@
 {
-  "name": "code-animate",
+  "name": "animate-code",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
@@ -10,8 +10,11 @@
   "author": "",
   "license": "ISC",
   "peerDependencies": {
-    "@formkit/auto-animate": "^0.8.1",
-    "prismjs": "^1.29.0",
+    "@formkit/auto-animate": ">=0.8.0",
+    "prismjs": ">=1.0.0",
     "react": "*"
+  },
+  "dependencies": {
+    "@storybook/react": "^7.6.15"
   }
 }

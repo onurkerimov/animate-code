@@ -4,6 +4,11 @@ import path from 'path';
 import typescript from 'rollup-plugin-typescript2';
 import workspacesRun from 'workspaces-run';
 import copy from 'rollup-plugin-copy';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
 // import dts from 'rollup-plugin-dts';
 // import linaria from '@linaria/rollup';
 // import css from 'rollup-plugin-css-only';

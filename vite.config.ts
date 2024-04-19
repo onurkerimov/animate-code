@@ -17,13 +17,13 @@ export default defineConfig({
     //   },
     // }),
   ],
-  test: {
-    root: './',
-    globals: true,
-    environment: 'jsdom',
-    setupFiles: ['./config/setupTests.ts'],
-    passWithNoTests: true,
-  },
+  // test: {
+  //   root: './',
+  //   globals: true,
+  //   environment: 'jsdom',
+  //   setupFiles: ['./config/setupTests.ts'],
+  //   passWithNoTests: true,
+  // },
   resolve: {
     alias: {
       // xoid: '@xoid/development',

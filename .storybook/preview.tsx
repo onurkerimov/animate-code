@@ -12,11 +12,7 @@ const preview: Preview = {
       window.document.documentElement.setAttribute('data-theme', 'light')
       window.localStorage.setItem('theme', 'light')
 
-      return (
-        <>
-          <Story />
-        </>
-      )
+      return <Story />
     },
   ],
 }

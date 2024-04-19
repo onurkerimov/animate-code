@@ -30,7 +30,7 @@ const Template = (
 }
 
 const meta: Meta<typeof Template> = {
-  title: 'Basic animation',
+  title: 'AnmateCode',
   component: Template,
 }
 
